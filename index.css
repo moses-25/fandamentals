@@ -1,0 +1,46 @@
+/* Center the header text */
+header h1 {
+    text-align: center;
+  }
+  
+  /* Center the image */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    padding: 10px;
+    background-color: grey;
+    text-align: center;
+  }
+  
+  /* Style the image caption */
+  figcaption {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Style the text block */
+  #featured-property p {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Make the details section horizontal */
+  #details div {
+    float: left;
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Clear the float */
+  #details::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
